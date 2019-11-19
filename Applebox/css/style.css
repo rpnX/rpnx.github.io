@@ -1,0 +1,42 @@
+
+.mainblock {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    font-size: 32px;
+    overflow: auto;
+}
+.box {
+    height: 850px;
+    position: relative;
+    top: -100px;
+    background: url('box.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.add{
+    font-size: 48px;
+    position: relative;
+    top: 190px;
+}
+.textarea {
+    height: 213px;
+    width: 391px;
+    color: black;
+    border: 3px;
+    background: none;
+    padding: 25px;
+    text-align: center;
+    font-size: 68px;
+}
+.textout{
+    font-size: 65px;
+}
+.textout p {
+    margin: 0;
+}
+.num {
+    color: rgb(138, 29, 29);
+}
