@@ -46,6 +46,10 @@ h1 {
 article h3 {
     margin: 5px 0;
 }
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
 
 .contacts a {
     color: black;
