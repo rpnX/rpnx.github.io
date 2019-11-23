@@ -46,6 +46,25 @@ h1 {
 article h3 {
     margin: 5px 0;
 }
+
+aside{
+    padding-top: 15px;
+}
+
+#phone{
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+#phone a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.phone {
+    cursor: pointer;
+}
 .contacts{
     display: flex;
     justify-content: space-between;
@@ -62,10 +81,6 @@ article h3 {
 
 .contacts img {
     margin-top: 15px;
-}
-
-aside {
-    padding-top: 27px;
 }
 
 .skills-container {
