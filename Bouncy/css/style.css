@@ -8,30 +8,6 @@
     src: url(fonts/BIGJOHN.otf);
 }
 
-h1 {
-    font-size: 4.7vw;
-}
-h2 {
-    font-size: 3.0vw;
-}
-h3 {
-    font-size: 2.0vw;
-}
-h4 {
-    font-size: 1.6vw;   
-}
-h5 {
-    font-size: 1.2vw;
-}
-h6{
-    font-size: 0.8;
-}
-p {
-    font-size: 1.2vw;
-}
-a{
-    font-size: 0.8vw;
-}
 html {
     scroll-behavior: smooth;
 }
@@ -975,13 +951,22 @@ border: 1px solid black;
         justify-content: center;
 
     }
+    h5 {
+        font-size: 2vw;
+    }
+    a {
+        font-size: 1.8vw;
+    }
 }
 @media (min-width: 576px){
     .modal-dialog {
         max-width: 90%;
-    margin: 2px auto;
-}
+    margin: 2px auto;}
+
+    h5 {
+        font-size: vw;
     }
+}
 
 @media (max-width: 1250px) {
     .progressall {
