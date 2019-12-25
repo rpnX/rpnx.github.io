@@ -949,23 +949,12 @@ border: 1px solid black;
         -ms-flex-direction: row !important;
         flex-direction: row !important; 
         justify-content: center;
-
-    }
-    h5 {
-        font-size: 2vw;
-    }
-    a {
-        font-size: 1.8vw;
     }
 }
 @media (min-width: 576px){
     .modal-dialog {
         max-width: 90%;
     margin: 2px auto;}
-
-    h5 {
-        font-size: vw;
-    }
 }
 
 @media (max-width: 1250px) {
