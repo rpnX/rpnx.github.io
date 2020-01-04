@@ -223,13 +223,14 @@ header .nav-item a:hover::after {
     padding: 45px 0;
 }
 
-.aboutw .container h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+.aboutw h4 {
+    font-size: 30px;
     padding: 25px;
 }
 
-.aboutw .container p {
+.aboutw p {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
     padding-bottom: 35px;
 }
 
@@ -900,8 +901,14 @@ border: 1px solid black;
     top: -250px;
 }
 
-
-
+.prices {
+    margin-bottom: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.prices .card { 
+    box-shadow: 0 0 7px 3px rgba(129, 129, 129, 1);
+}
 
 
 
