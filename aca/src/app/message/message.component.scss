@@ -1,0 +1,93 @@
+.message-container {
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  min-height: 75px;
+  width: 93%;
+  min-width: 400px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.message-info-container {
+  box-shadow: 0px -1px 10px -2px rgba(0,0,0,0.79);
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  min-height: 75px;
+  overflow: hidden;
+  background-color: #e4e4e4;
+}
+.user-displayName {
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.user-email {
+  text-align: center;
+  color: #364645;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  font-size: 14px;
+}
+.time-stamp {
+  position: absolute;
+  bottom: 0;
+  color: #777575;
+  font-size: 12px;
+  right: 25px;
+  margin: 2px
+}
+.message {
+  box-shadow: 0px -2px 19px -2px rgba(0,0,0,0.79);
+  border-radius: 10px;
+  position: relative;
+  overflow-wrap: break-word;
+  min-height: 50px;
+  width: 72%;
+  left: 22.5%;
+  background-color: #ffffff;
+  padding: 10px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  margin-left: 15px;
+}
+.message-container .message-buttons-container {
+  opacity: 0.1;
+  position: absolute;
+  width: 4%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  transition: 0.5s;
+}
+.message-container .message-buttons-container:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+.message-container .message-buttons-container .message-button {
+  height: 23px;
+  width: 23px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-size: cover;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.message-container .message-buttons-container .edit-message-button {
+  background-image: url(../../assets/edit-message.svg);
+}
+.message-container .message-buttons-container .remove-message-button {
+  background-image: url(../../assets/delet-message.svg);
+}

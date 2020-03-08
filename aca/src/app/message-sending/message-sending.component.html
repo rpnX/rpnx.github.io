@@ -1,0 +1,11 @@
+<div class="message-sending-container">
+  <input  name="message"
+          id="message-sending-input"
+          [disabled]="!uid"
+          [(ngModel)]="message"
+          [placeholder]="placeholderText"
+          (keypress)="keyPressHandler($event)"
+          type="text"
+          autofocus>
+  <button type="button" class="message-sending-button" (click)="clickHandler($event)">Send</button>
+ </div>

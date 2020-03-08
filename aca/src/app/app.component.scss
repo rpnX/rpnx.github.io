@@ -1,0 +1,33 @@
+.header {
+  position: absolute;
+  top: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  max-width: 54%;
+  left: 23%;
+  right: 23%;
+  height: 9%;
+  background-color: #0f0827;
+}
+.header .app-title {
+  font-size: 25px;
+  color: #ffffff;
+  margin-left: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+}
+app-messages-box {
+  margin-top: 0px;
+  top: 0;
+  align-items: center ;
+}

@@ -1,0 +1,4 @@
+<div *ngIf="isEditing" class="message-editing-container">
+    <textarea appAutoFocus name="message" [(ngModel)]="message" id="message-editing-textarea" (keypress)="keyPressHandler($event)" maxlength="250"></textarea>
+<button type="button" class="message-editing-button" (click)="clickHandler($event)">Edit</button>
+</div>
