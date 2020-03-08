@@ -209,6 +209,8 @@ body > section > main > article.main > books > div:nth-child(1) > progress {
 .project-container img {
     border-radius: 10px;
     transition: filter 500ms;
+    overflow:hidden;
+    height: 212px;
 }
 
 .project-container:hover img {

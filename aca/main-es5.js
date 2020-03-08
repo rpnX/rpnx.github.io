@@ -1994,9 +1994,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var month = currentDate.getMonth() + 1;
 
           if (month < 10) {
-            return "".concat(dayOfTheMonth, ".0").concat(month, ".").concat(year, " ").concat(time);
+            return "".concat(year, ".0").concat(month, ".").concat(dayOfTheMonth, " ").concat(time);
           } else {
-            return "".concat(dayOfTheMonth, ".").concat(month, ".").concat(year, " ").concat(time);
+            return "".concat(year, ".").concat(month, ".").concat(dayOfTheMonth, " ").concat(time);
           }
         }
       }, {

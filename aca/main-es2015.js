@@ -1057,10 +1057,10 @@ let MessagesService = class MessagesService {
         const [, , dayOfTheMonth, year, time] = currentDate.toString().split(' ');
         const month = currentDate.getMonth() + 1;
         if (month < 10) {
-            return `${dayOfTheMonth}.0${month}.${year} ${time}`;
+            return `${year}.0${month}.${dayOfTheMonth} ${time}`;
         }
         else {
-            return `${dayOfTheMonth}.${month}.${year} ${time}`;
+            return `${year}.${month}.${dayOfTheMonth} ${time}`;
         }
     }
     setUser(user) {
