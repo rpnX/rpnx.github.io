@@ -195,7 +195,7 @@ body > section > main > article.main > books > div:nth-child(1) > progress {
 }
 .project-text{
     font-family: sans-serif;
-    font-size: x-large;
+    font-size: 24px;
     margin: 15px 15px auto 15px;
 }
 
