@@ -193,11 +193,16 @@ body > section > main > article.main > books > div:nth-child(1) > progress {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.project-text{
+    font-family: sans-serif;
+    font-size: x-large;
+    margin: 15px 15px auto 15px;
+}
 
 .project-container {
     width: 420px;
     height: 205px;
-    margin: 30px 10px;
+    margin: 10px 10px;
     justify-self: center;
     position: relative;
     border-radius: 10px;
