@@ -132,6 +132,7 @@ main {
 }
 
 .main {
+    margin: 35px auto auto auto;
     border: 1px solid #40a4b1;
     display: grid;
     grid-template-columns: 2fr 4fr;
