@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactfilm/static/css/main.ac40f505.chunk.css",
+    "main.js": "/reactfilm/static/js/main.f26062b2.chunk.js",
+    "main.js.map": "/reactfilm/static/js/main.f26062b2.chunk.js.map",
+    "runtime-main.js": "/reactfilm/static/js/runtime-main.5c6e9abd.js",
+    "runtime-main.js.map": "/reactfilm/static/js/runtime-main.5c6e9abd.js.map",
+    "static/js/2.7f421567.chunk.js": "/reactfilm/static/js/2.7f421567.chunk.js",
+    "static/js/2.7f421567.chunk.js.map": "/reactfilm/static/js/2.7f421567.chunk.js.map",
+    "index.html": "/reactfilm/index.html",
+    "precache-manifest.e8d83d9a398dc00e843f21d27b7ebec7.js": "/reactfilm/precache-manifest.e8d83d9a398dc00e843f21d27b7ebec7.js",
+    "service-worker.js": "/reactfilm/service-worker.js",
+    "static/css/main.ac40f505.chunk.css.map": "/reactfilm/static/css/main.ac40f505.chunk.css.map",
+    "static/js/2.7f421567.chunk.js.LICENSE.txt": "/reactfilm/static/js/2.7f421567.chunk.js.LICENSE.txt",
+    "static/media/no_image.jpg": "/reactfilm/static/media/no_image.31f5bb1d.jpg",
+    "static/media/tmdb_logo.svg": "/reactfilm/static/media/tmdb_logo.30cd724b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c6e9abd.js",
+    "static/js/2.7f421567.chunk.js",
+    "static/css/main.ac40f505.chunk.css",
+    "static/js/main.f26062b2.chunk.js"
+  ]
+}
